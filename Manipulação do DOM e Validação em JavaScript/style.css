@@ -1,0 +1,39 @@
+:root {
+    
+    --cor-primaria: #128C8E; 
+    --cor-primaria-hover: #0e6f70;
+    --fundo-pagina: #F2F5F8; 
+    --fundo-conteudo: #FFFFFF; 
+    --cor-borda: #E1E5E9;
+    --texto-escuro: #2D3748;
+}
+
+button, .seu-botao-principal {
+    background-color: var(--cor-primaria);
+    color: white;
+    
+    
+    border-radius: 6px; 
+    border: none;
+    
+    padding: 10px 20px;
+    font-weight: 600; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .seu-botao-principal:hover {
+    background-color: var(--cor-primaria-hover);
+}
+
+body {
+    background-color: var(--fundo-pagina);
+    font-family: sans-serif; 
+}
+
+.container, .main, .card {
+    background-color: var(--fundo-conteudo);
+    border-radius: 12px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); 
+    border: 1px solid var(--cor-borda);
+}

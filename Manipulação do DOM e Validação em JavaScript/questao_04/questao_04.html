@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        table { border-spacing: 10px; }
+        #mensagem { font-weight: bold; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <h2>Validação de Cadastro</h2>
+
+    <table>
+        <tr>
+            <td><label for="nome">Nome completo:</label></td>
+            <td><input type="text" id="nome"></td>
+        </tr>
+        <tr>
+            <td><label for="dataNasc">Data de nascimento:</label></td>
+            <td><input type="date" id="dataNasc"></td>
+        </tr>
+        <tr>
+            <td><label for="cpf">CPF:</label></td>
+            <td><input type="text" id="cpf" placeholder="000.000.000-00"></td>
+        </tr>
+        <tr>
+            <td><label for="email">E-mail:</label></td>
+            <td><input type="email" id="email"></td>
+        </tr>
+        <tr>
+            <td><label for="telefone">Telefone:</label></td>
+            <td><input type="text" id="telefone" placeholder="(xx) xxxxx-xxxx"></td>
+        </tr>
+    </table>
+
+    <br>
+    <button onclick="validarFormulario()">Validar Cadastro</button>
+
+    <p id="mensagem"></p>
+
+    <script src="questao_04.js"></script>
+</body>
+</html>

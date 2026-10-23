@@ -1,100 +1,35 @@
-<div align="center">
+# Manipulação do DOM e Validação em JavaScript
 
-# 🖱️ Manipulação do DOM e Validação em JavaScript
+<!-- badges -->
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-663399?style=flat-square&logo=css&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-### Front-end essencial — sem frameworks, sem dependências
+[Read in English](README.en.md)
 
-<br>
+Quatro exercícios de front-end em HTML, CSS e JavaScript puros para praticar leitura de campos, alteração do DOM, estilos dinâmicos e validação de formulário.
 
-![HTML](https://img.shields.io/badge/HTML-55.5%25-E34F26?style=flat-square&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-32.7%25-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![CSS](https://img.shields.io/badge/CSS-11.8%25-1572B6?style=flat-square&logo=css3&logoColor=white)
+## Exercícios
 
-<br>
+Ficam em `Manipulação do DOM e Validação em JavaScript/`, com um `style.css` compartilhado.
 
-![Tipo](https://img.shields.io/badge/Tipo-Atividade_Prática-4A4A4A?style=flat-square)
-![Instituição](https://img.shields.io/badge/Instituição-CESAR_School-6A0DAD?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Concluído-2E8B57?style=flat-square)
+| Questão | O que faz | Conceitos |
+| --- | --- | --- |
+| `questao_01` | Lê o texto digitado e o insere como título; com o campo vazio, mostra um aviso em vermelho | `getElementById`, `value`, `innerText`, `style` |
+| `questao_02` | Alterna um elemento entre quadrado e círculo e troca o texto do botão | `getComputedStyle`, `borderRadius` |
+| `questao_03` | Cadastro com nome, nascimento e endereço que monta uma frase com os dados informados | leitura de vários campos, template literals |
+| `questao_04` | Valida nome e CPF obrigatórios e o formato do CPF (`000.000.000-00`) com expressão regular, mostrando erro ou sucesso | regex, condicionais, feedback visual |
 
-<br>
+Os eventos são ligados pelo atributo `onclick` dos botões.
 
-> *Atividade prática focada em consolidar os fundamentos de manipulação do DOM,*
-> *eventos, funções JavaScript e validação de formulários — tudo com JavaScript Vanilla.*
+## Como executar
 
-</div>
-
----
-
-## Sobre o Projeto
-
-O objetivo desta atividade é demonstrar como o **JavaScript puro** interage diretamente com o navegador, sem depender de bibliotecas como jQuery ou frameworks como React.
-
-O projeto cobre o ciclo completo de uma interação web básica: estruturar o HTML semanticamente, estilizar os estados de feedback com CSS e orquestrar toda a lógica de eventos e validação com JavaScript Vanilla.
-
----
-
-## Funcionalidades Implementadas
-
-- **Leitura e escrita dinâmica** — captura de inputs e exibição de dados processados em tempo real
-- **Validação em tempo real** — verificação de campos obrigatórios, formato de e-mail e regras de senha antes do envio
-- **Prevenção de comportamento padrão** — uso de `preventDefault()` para controle total do submit
-- **Feedback visual imediato** — estados de erro e sucesso refletidos no CSS dinamicamente
-- **Manipulação de elementos** — criação, remoção e alteração de elementos no DOM via JavaScript
-
----
-
-## Conceitos Praticados
-
-```
-DOM API          → querySelector, getElementById, createElement, innerHTML
-Eventos          → addEventListener, submit, input, click
-Validação        → Regex, campos obrigatórios, regras de senha e e-mail
-Feedback Visual  → classList.add / classList.remove para estados de erro/sucesso
-Formulários      → preventDefault(), captura de valores, reset
-```
-
----
-
-## Estrutura
-
-| Arquivo | Descrição |
-|---|---|
-| `index.html` | Estrutura semântica do formulário e elementos de tela |
-| `style.css` | Estilização da interface com estados de erro e sucesso |
-| `app.js` | Event listeners, manipulação do DOM e lógica de validação |
-
----
-
-## Como Testar
-
-Nenhuma instalação necessária — basta abrir no navegador:
-
-1. Clone ou baixe os arquivos do repositório
-2. Abra o arquivo `index.html` em qualquer navegador moderno
-3. Tente submeter o formulário **vazio** ou com **dados inválidos** para ver as validações em ação
+Não há dependências. Clone o repositório e abra o `.html` de cada questão no navegador:
 
 ```bash
-# Opcional: clonar via Git
 git clone https://github.com/Luisr-nunes/Manipula-o-do-DOM-e-Valida-o-em-JavaScript.git
 ```
 
----
-
 ## Autor
 
-<div align="center">
+Luís Nunes — [GitHub](https://github.com/Luisr-nunes) · [LinkedIn](https://www.linkedin.com/in/luis-nunes-dev/)
 
-**Luis Nunes**
-Estudante de ADS — CESAR School
-
-[![GitHub](https://img.shields.io/badge/GitHub-Luisr--nunes-181717?style=flat-square&logo=github)](https://github.com/Luisr-nunes)
-
-</div>
-
----
-
-<div align="center">
-
-*🚀 JavaScript puro, sem muletas — do jeito que deve ser aprendido primeiro.*
-
-</div>
+Projeto acadêmico do curso de Análise e Desenvolvimento de Sistemas da Cesar School.
